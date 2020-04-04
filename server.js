@@ -25,7 +25,7 @@ const bcrypt= require('bcrypt-nodejs');
 app.use(bodyParser.json());
 
 app.get('/',(req,res)=>{
-	res.send(database.users);
+	res.send('it is working!');
 })
 
 app.post('/signin',(req,res)=>{SignIn.handleSignIn(req,res,db,bcrypt)})
