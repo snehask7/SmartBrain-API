@@ -8,6 +8,8 @@ const register = require('./controllers/register');
 const SignIn = require('./controllers/SignIn');
 const Profile = require('./controllers/Profile');
 const image = require('./controllers/image');
+
+
 const db = knex({
 	client: 'pg',
 	connection: {
