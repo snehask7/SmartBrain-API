@@ -12,7 +12,7 @@ const db = knex({
 	client: 'pg',
 	connection: {
 		connectionString: 'postgresql-globular-12791',
-		ssl: true;
+		ssl: true
 	}
 });
 
