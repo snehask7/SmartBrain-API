@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const app=express();
 const knex=require('knex');
 var cors = require('cors');
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
 const register = require('./controllers/register');
 const SignIn = require('./controllers/SignIn');
